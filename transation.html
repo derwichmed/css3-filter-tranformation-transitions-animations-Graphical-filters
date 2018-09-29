@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div:first-child img{
+                display: block;
+                margin: auto;
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                transition: width 2s, height 4s;
+            }
+            div:first-child img:hover{
+                width: 500px;
+                height: 500px;
+            }
+            
+            div:last-child img{
+                display: block;
+                margin: auto;
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                transition: width 2s, height 2s, transform 2s;
+            }
+            div:last-child img:hover{
+                width: 500px;
+                height: 500px;
+                transform: rotate(360deg);
+            }
+        </style>
+    </head>
+    <body>
+        <a href="animation.html">NEXT</a>
+        <div>
+            <h4 style="text-align: center">transition: width 2s, height 4s;</h4>
+            <img src="pexels-photo-145939.jpeg"/>
+        </div>
+        
+        <div>
+            <h4 style="text-align: center">Transition + Transformation</h4>
+            <img src="pexels-photo-145939.jpeg"/>
+        </div>
+    </body>
+</html>
